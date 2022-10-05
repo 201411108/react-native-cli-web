@@ -1,10 +1,6 @@
 # React Native Cli react-native-web 설정
 
----
-
 ## react-native cli 프로젝트 생성
-
----
 
 ```bash
 npx react-native init ${projectName} --template react-native-template-typescript
@@ -15,8 +11,6 @@ npx react-native init ${projectName} --template react-native-template-typescript
 - 실행 확인
 
 ## react-native-web 설치
-
----
 
 ### web 실행을 위한 패키지 설치
 
@@ -87,8 +81,6 @@ yarn web
 
 ## react-native-navigation 설정
 
----
-
 ### docs 따라서 해당하는 패키지 설치
 
 ### iOS
@@ -99,7 +91,7 @@ npx pod-install ios
 
 ### Android
 
-- [MainActivity.java](http://MainActivity.java) 파일에서 아래 코드 추가
+- `MainActivity.java` 파일에서 아래 코드 추가
 
   ```java
   // 최상단에 추가
@@ -113,6 +105,13 @@ npx pod-install ios
   ```
 
 - 설치 후 android 및 ios 다시 빌드 → 실행 성공
+
+## TODO
+
+- [x] 기본 환경 설정
+- [ ] `eslint` 적용
+- [ ] `styled-components` 또는 `emotion` 적용
+- [ ] 앱 배포 확인
 
 ## Reference
 
